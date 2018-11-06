@@ -2,7 +2,7 @@
 layout: post
 title:  "Tests Jekyll Markdown"
 date:   2018-11-06 10:21:59 +0100
-categories: test
+categories: jekyll update
 ---
 Some tests
 ----
