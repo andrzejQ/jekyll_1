@@ -87,7 +87,7 @@ text `and code ` . . .
 
 ![MarkDownIcon.png](MarkDownIcon.png "MarkDownIcon.png")
 `![MarkDownIcon.png](MarkdownIcon.png)`  
-![./MarkdownIcon.png](./MarkdownIcon.png "MarkdownIcon.png")
+![./MarkdownIcon.png]({{ site.baseurl }}/assets/img/MarkdownIcon.png "MarkdownIcon.png")
  `![MarkdownIcon.png](./MarkdownIcon.png)`  
 ![MarkdownIcon.png?raw=1](MarkdownIcon.png?raw=1 "MarkdownIcon.png") `![MarkdownIcon.png](./MarkdownIcon.png?raw=1)` (it works in some clouds)
 
