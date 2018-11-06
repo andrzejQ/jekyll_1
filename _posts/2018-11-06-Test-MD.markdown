@@ -7,18 +7,6 @@ categories: test
 Some tests
 ----
 
-Help in short: 
-* <https://marked.js.org>
-* <https://github.github.com/gfm/> (MD + tables, task list items `[x]`, strikethrough `~~`, autolinks `<...>`)
-* <https://commonmark.org/help/>
-
-### How it works?
-
-text → [**Markdown**](https://marked.js.org) (with code [highlighting](https://highlightjs.org/)) → [x] [**MathJax**](https://www.mathjax.org/) →  preview (+ HTML export)
-
-Uses async. working MathJax (see also <https://github.com/kerzol/markdown-mathjax>).
-
-
 ### Math Inline
 
 <https://docs.mathjax.org/>
