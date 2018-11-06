@@ -11,7 +11,7 @@ Some tests
 
 <https://docs.mathjax.org/>
 
-* AsciiMath2jax (`''` or `€€`) - see <http://www.wjagray.co.uk/maths/SymbolList.html> and use "`''<space>...<space>''`" as defined in `_includes/mathjs { asciimath2jax: {delimiters:...`:
+* **AsciiMath2jax** (`''` or `€€`) - see <http://www.wjagray.co.uk/maths/SymbolList.html> and use "`''<space>...<space>''`" as defined in `_includes/mathjs { asciimath2jax: {delimiters:...`:
 
 '' sum_(k=1)^n k = 1+2+ cdots +n=(n(n+1))/2 '' _ _ _ '' int_0^oo (x^3) / (e^x-1)\ dx = (pi^4)/(15) '' _ _ _ '' f'(x) = dy/dx ''
 
@@ -21,7 +21,7 @@ Some tests
 '' A_(m,n) = ((a_(11), cdots , a_(1n)),(vdots, ddots, vdots),(a_(m1), cdots , a_(mn))) ''
 €€ S_(m,n) = ((s_(11), cdots , s_(1n)),(vdots, ddots, vdots),(s_(m1), cdots , s_(mn))) €€
 
-* TeX2jax (`$`, `$$`):
+* **TeX2jax** (`$`, `$$`):
 
 ...  $\(ax^2 + bx + c = 0\)$   ... **in**line ... 
 $\left(\begin{array}{c}
