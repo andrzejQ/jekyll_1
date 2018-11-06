@@ -52,7 +52,7 @@ $$
 
 Problems
 1. "`\`" before any ASCII punctuation character is [backslash escape](https://github.github.com/gfm/#example-301), so "`\(`" should be written as "`\\(`".
-2. kramdown converts "`''`" to different combinations of "`‘’`", so `_includes/mathjs { asciimath2jax:` configuration is complicated.
+2. kramdown converts "`''`" to different combinations of "`‘’`", so `_includes/mathjs { asciimath2jax:` configuration is expanded.
 <!-- -->
 
 ### Extensions
