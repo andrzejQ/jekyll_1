@@ -21,7 +21,7 @@ Some tests
 '' A_(m,n) = ((a_(11), cdots , a_(1n)),(vdots, ddots, vdots),(a_(m1), cdots , a_(mn))) ''
 €€ S_(m,n) = ((s_(11), cdots , s_(1n)),(vdots, ddots, vdots),(s_(m1), cdots , s_(mn))) €€
 
-* **TeX2jax** (`$`, `$$`):
+* **TeX2jax** (`$` or `\\(`, `$$` or `\\[`):
 
 ...  $\(ax^2 + bx + c = 0\)$   ... **in**line ... 
 $\left(\begin{array}{c}
