@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Tests Jekyll Markdown"
+title:  "Jekyll kramdown + mathjax"
 date:   2018-11-06 06:21:59 +0100
-categories: jekyll update
+categories: jekyll tests
 ---
 Some tests
 ----
