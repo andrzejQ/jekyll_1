@@ -25,7 +25,7 @@ github_username:  andrzejQ
 
 # Build settings
 markdown: kramdown
-mathjax: true
+# mathjax: true
 theme: minima
 plugins:
   - jekyll-feed
