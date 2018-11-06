@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 Some tests
 ----
+{% include mathjs %}
 
 ### Math Inline
 
@@ -27,6 +28,12 @@ $\left(\begin{array}{c}
 \end{array}\right)$
 = ...
 
+\\[
+\begin{equation}
+  \int_0^\infty \frac{x^3}{e^x-1} dx = \frac{\pi^4}{15}
+  \label{eq:sample}
+\end{equation}
+\\]
 $$
 \begin{equation}
   \int_0^\infty \frac{x^3}{e^x-1} dx = \frac{\pi^4}{15}
@@ -87,12 +94,12 @@ text `and code ` . . .
 
 ![MarkDownIcon.png](MarkDownIcon.png "MarkDownIcon.png")
 `![MarkDownIcon.png](MarkdownIcon.png)`  
-![./MarkdownIcon.png]({{ site.baseurl }}/assets/img/MarkdownIcon.png "MarkdownIcon.png")
- `![MarkdownIcon.png](./MarkdownIcon.png)`  
-![MarkdownIcon.png?raw=1](MarkdownIcon.png?raw=1 "MarkdownIcon.png") `![MarkdownIcon.png](./MarkdownIcon.png?raw=1)` (it works in some clouds)
+![./MarkdownIcon.png]({{ site.baseurl }}/assets/img/MarkdownIcon.png "MarkdownIcon.png"){:width="40px"}
+ `![MarkdownIcon.png]({{ site.baseurl }}/assets/img/MarkdownIcon.png)`  
+![MarkdownIcon.png?raw=1]({{ site.baseurl }}/assets/img/MarkdownIcon.png?raw=1 "MarkdownIcon.png") `![MarkdownIcon.png]({{ site.baseurl }}/assets/img/MarkdownIcon.png?raw=1)` (it works in some clouds)
 
-<img src="./MarkdownIcon.png" alt="MarkdownIcon" width="30" onload="alert('DOMPurify.sanitize() ERROR!');"/> `<img src="./MarkdownIcon.png" width="30"`...  
-<img src="./MarkdownIcon.png?raw=1" alt="MarkdownIcon" width="30"> `<img src="./MarkdownIcon.png?raw=1 width="30""`...
+<img src="{{ site.baseurl }}/assets/img/MarkdownIcon.png" alt="MarkdownIcon" width="30" onload="alert('DOMPurify.sanitize() ERROR!');"/> `<img src="{{ site.baseurl }}/assets/img/MarkdownIcon.png" width="30"`...  
+<img src="{{ site.baseurl }}/assets/img/MarkdownIcon.png?raw=1" alt="MarkdownIcon" width="30"> `<img src="{{ site.baseurl }}/assets/img/MarkdownIcon.png?raw=1 width="30""`...
 
 #### HTTP image  ![Smiley face](https://www.wpclipart.com/smiley/wink/.cache/smile_wink.png "Smiley face")
 
