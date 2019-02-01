@@ -11,7 +11,7 @@ Some tests
 
 <https://docs.mathjax.org/>
 
-* **AsciiMath2jax** (`''` or `€€`) - see <http://www.wjagray.co.uk/maths/SymbolList.html> and use "`''<space>...<space>''`" as defined in `_includes/mathjs { asciimath2jax: {delimiters:...`:
+* **AsciiMath2jax** (`''` or `€€`) - see <http://www.wjagray.co.uk/maths/SymbolList.html> and use "`''<space>...<space>''`" as defined in <https://github.com/andrzejQ/jekyll_1> `_includes/mathjs { asciimath2jax: {delimiters:...`:
 
 '' sum_(k=1)^n k = 1+2+ cdots +n=(n(n+1))/2 '' _ _ _ '' int_0^oo (x^3) / (e^x-1)\ dx = (pi^4)/(15) '' _ _ _ '' f'(x) = dy/dx ''
 
@@ -52,7 +52,7 @@ $$
 
 Problems
 1. "`\`" before any ASCII punctuation character is [backslash escape](https://github.github.com/gfm/#example-301), so "`\(`" should be written as "`\\(`".
-2. kramdown converts "`''`" to different combinations of "`‘’`", so `_includes/mathjs { asciimath2jax:` configuration is expanded.
+2. kramdown converts "`''`" to different combinations of "`‘’`", so `_includes/mathjs { asciimath2jax:` configuration shoud be expanded.
 <!-- -->
 
 ### Extensions
