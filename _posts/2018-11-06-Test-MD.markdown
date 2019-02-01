@@ -69,6 +69,13 @@ Problems
   - [x] baz
 - [ ] bim
 
+#### Usefull links
+
+- <https://kramdown.gettalong.org/quickref.html>
+- <https://kramdown.gettalong.org/syntax.html>
+- <https://about.gitlab.com/2016/07/19/markdown-kramdown-tips-and-tricks/>
+- <https://about.gitlab.com/handbook/product/technical-writing/markdown-guide/>
+
 ### Code
 
 ```markdown
