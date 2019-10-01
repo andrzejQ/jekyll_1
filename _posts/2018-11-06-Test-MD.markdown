@@ -75,11 +75,14 @@ header | _Pipe_ | table
 <https://docs.mathjax.org/>
 
 #### **AsciiMath2jax** (`''` or `€€`) 
-- see <http://www.wjagray.co.uk/maths/SymbolList.html> and use "`''<space>...<space>''`" as defined in <https://github.com/andrzejQ/jekyll_1> `_includes/mathjs { asciimath2jax: {delimiters:...`:
+- see <http://www.wjagray.co.uk/maths/SymbolList.html> and use "`''<space>...<space>''`" as defined in <https://github.com/andrzejQ/jekyll_1> `_includes/mathjs { asciimath2jax: {delimiters:...`: 
 
-'' sum_(k=1)^n k = 1+2+ cdots +n=(n(n+1))/2 '' _ _ _ '' int_0^oo (x^3) / (e^x-1)\ dx = (pi^4)/(15) '' _ _ _ '' f'(x) = dy/dx ''
+'' sum_(k=1)^n k = 1+2+ cdots +n=(n(n+1)) / 2 '' _ _ _ '' f'(x) = dy/dx ''  
 
-'' ( a bc\ d ) \ \  [[a,b],[c,d]] '' 
+'' int_0^oo (x^3)/(e^x-1) dx = (pi^4)/(15) '' 
+<!--unknown problem in N++ Md Panel; '' int_0\^oo (x\^3)/(e\^x-1) dx = (pi\^4)/(15) '' is working...-->
+
+'' ( a bc\ d ) \ \  [[a,b],[c,d]] ''
 
 '' ((n),(r)) ''; _ _ _ 
 '' A_(m,n) = ((a_(11), cdots , a_(1n)),(vdots, ddots, vdots),(a_(m1), cdots , a_(mn))) ''
@@ -87,11 +90,8 @@ header | _Pipe_ | table
 
 #### **TeX2jax** (`$` or `\\(`, `$$` or `\\[`):
 
-...  $\(ax^2 + bx + c = 0\)$   ... **in**line ... 
-$\left(\begin{array}{c}
- n \newline
- r
-\end{array}\right)$
+...  $ \(ax^2 + bx + c = 0\) $   ... **in**line ... 
+$\left(\begin{array}{c} n \newline r \end{array}\right)$
 = ...
 
 
@@ -119,18 +119,16 @@ Problems
 2. kramdown converts "`''`" to different combinations of "`‘’`", so `_includes/mathjs { asciimath2jax:` configuration shoud be expanded.
 <!-- -->
 
-
-
 Async Mathjax Support at the end of the markdown file (`% include mathjs %` in curly brackets)
 {% include mathjs %}
 
-<!--mathjs in Markdown Panel--> 
+<!--mathjs in Notepad++ Markdown Panel--> 
 {% comment %}
 <script type="text/javascript">
   window.MathJax = {
     tex2jax: {inlineMath: [['$','$'],['\\(','\\)']],displayMath: [['$$','$$'],['\\[','\\]']],processEscapes:true}, 
-    asciimath2jax: {delimiters: [['€€','€€'],["''","''"],["’’","‘’"],["‘’","’’"],["‘’","‘’"],["‘‘","’’"]]}
+    asciimath2jax: {delimiters: [['€€','€€'],["''","''"]]}
   };
 </script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
 {% endcomment %}
