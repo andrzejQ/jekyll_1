@@ -124,3 +124,13 @@ Problems
 Async Mathjax Support at the end of the markdown file (`% include mathjs %` in curly brackets)
 {% include mathjs %}
 
+<!--mathjs in Markdown Panel--> 
+{% comment %}
+<script type="text/javascript">
+  window.MathJax = {
+    tex2jax: {inlineMath: [['$','$'],['\\(','\\)']],displayMath: [['$$','$$'],['\\[','\\]']],processEscapes:true}, 
+    asciimath2jax: {delimiters: [['€€','€€'],["''","''"],["’’","‘’"],["‘’","’’"],["‘’","‘’"],["‘‘","’’"]]}
+  };
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+{% endcomment %}
