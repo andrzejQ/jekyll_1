@@ -79,8 +79,9 @@ header | _Pipe_ | table
 
 '' sum_(k=1)^n k = 1+2+ cdots +n=(n(n+1)) / 2 '' _ _ _ '' f'(x) = dy/dx ''  
 
-'' int_0^oo (x^3)/(e^x-1) dx = (pi^4)/(15) '' 
-<!--unknown problem in N++ Md Panel; '' int_0\^oo (x\^3)/(e\^x-1) dx = (pi\^4)/(15) '' is working...-->
+'' int_0^oo (x^3)/(e^x-1) dx = (pi^4)/(15) ''  {% comment %}
+- problem in N++ Md Panel; working version: '' int_0\^oo (x\^3)/(e\^x-1) dx = (pi\^4)/(15) ''
+{% endcomment %}
 
 '' ( a bc\ d ) \ \  [[a,b],[c,d]] ''
 
@@ -116,7 +117,7 @@ $$
 
 Problems
 1. "`\`" before any ASCII punctuation character is [backslash escape](https://github.github.com/gfm/#example-301), so "`\(`" should be written as "`\\(`".
-2. kramdown converts "`''`" to different combinations of "`‘’`", so `_includes/mathjs { asciimath2jax:` configuration shoud be expanded.
+2. kramdown converts "`''`" to different combinations of "`‘’`" - see special conf. in `_includes/mathjs { asciimath2jax:` .
 <!-- -->
 
 Async Mathjax Support at the end of the markdown file (`% include mathjs %` in curly brackets)
