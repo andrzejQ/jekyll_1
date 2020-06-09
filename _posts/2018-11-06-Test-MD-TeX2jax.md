@@ -20,6 +20,7 @@ Jekyll kramdown + mathjax test (TeX2jax)
 - <https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference>
 - <https://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm>
 
+$ \displaystyle \sum\limits_{k=1}^n k = 1+2+ \dots +n = \frac{n(n+1)}{2} $ _ _ _ $ f'(x) = \cfrac{dy}{dx} =\$100 $ 
 
 ...  $ (ax^2 + bx + c = 0) $   ... **in**line ... 
 $ \left(\begin{array}{c} n \newline r \end{array}\right) =\$100   $
@@ -61,6 +62,6 @@ https://github.com/lunet-io/markdig/blob/master/src/Markdig.Tests/Specs/MathSpec
     }
   };
 </script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG"></script>
 
 {% endcomment %}
