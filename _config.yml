@@ -24,7 +24,8 @@ minima:
   date_format: "%Y-%m-%d"
 
 show_excerpts: true
-# - UWAGA - gdy końce wierszy: \r\n to fatalnie działa w jekyll - wyświetla całe artykuły; muszą być \n na końcu                        
+# - Warning - not use \r\n but \n
+
 description: >-# this means to ignore newlines until "baseurl:"
   (2019-09-23 - updated gemfile)
   
