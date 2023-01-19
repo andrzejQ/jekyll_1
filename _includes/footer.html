@@ -4,8 +4,10 @@
   <div class="wrapper">
 
     {%- if page.comments == true -%}
-		<p style="font-size:small"> Comments will be appproved before publishing. </p>
-      {%- include comments.html -%}
+      <p style="font-size:small"> Join the discussion.
+       <br> To start with, you need a (free) account on
+       <a href="https://github.com/">GitHub</a>.</p>
+      {%- include giscus_js.html -%}
     {%- endif -%}
 
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
