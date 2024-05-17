@@ -22,6 +22,10 @@ title: Jekyll kramdown + mathjax (tex2jax, asciimath2jax) test
 email: 
 minima:
   date_format: "%Y-%m-%d"
+  
+sass: 
+  quiet_deps: true
+
 
 show_excerpts: true
 # - Warning - not use \r\n but \n
